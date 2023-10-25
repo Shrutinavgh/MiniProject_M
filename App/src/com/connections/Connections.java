@@ -15,7 +15,7 @@ public class Connections {
 		String username="root";
 		String password="Shruti@123";
 	Connection	con=DriverManager.getConnection(url,username,password);
-	System.out.println("hi");
+	
 		return con;
 		
 	}
